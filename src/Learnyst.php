@@ -50,7 +50,7 @@ class Learnyst
 		$result = curl_exec($ch);
 		// close connection
 		curl_close($ch);
-		return $result;
+		return json_decode($result);
 	}
 
 	public function enrolStudent()
@@ -73,7 +73,7 @@ class Learnyst
 		$result = curl_exec($ch);
 		// close connection
 		curl_close($ch);
-		return $result;
+		return json_decode($result);
 	}
 
 	public function loginStudent()
@@ -95,6 +95,6 @@ class Learnyst
 		$result = curl_exec($ch);
 		// close connection
 		curl_close($ch);
-		return $result;
+		return json_decode($result);
 	}
 }
