@@ -1,0 +1,18 @@
+{
+    "name": "donnie/learnyst-php",
+    "description": "To handle Learnyst API calls",
+    "type": "library",
+    "license": "(C) 2017 Addictive Learning Technology Private Limited",
+    "authors": [
+        {
+            "name": "Donnie Ashok",
+            "email": "donnie@legalify.in"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Donnie\\Learnyst\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
