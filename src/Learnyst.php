@@ -24,9 +24,9 @@ class Learnyst
 	function __construct($auth, $domain)
 	{
 		$this->auth = $auth;
-		$this->addUrl = 'https://www.'.$domain.'/api/rest/registerUser.json';
-		$this->enrolUrl = 'https://www.'.$domain.'/api/rest/addEnrollment.json';
-		$this->loginUrl = 'https://www.'.$domain.'/api/rest/login.json';
+		$this->addUrl = 'https://'.$domain.'/api/rest/registerUser.json';
+		$this->enrolUrl = 'https://'.$domain.'/api/rest/addEnrollment.json';
+		$this->loginUrl = 'https://'.$domain.'/api/rest/login.json';
 	}
 
 	public function addStudent()
